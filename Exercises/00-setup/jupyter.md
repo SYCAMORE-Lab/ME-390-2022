@@ -48,7 +48,7 @@ Code cells support Python code (and other languages with different kernels, alth
 <img src="images/run_cell.png" width=700>
 
 
-:warning: Code cells can be executed in any order. This means that you can overwrite your current variables by running cells out of order. This also means that variables declared in cells that were executed then deleted will still be present (known as a hidden state) unless the kernel is restarted. Therefore, **when coding in notebooks, be cautious of the order in which you run cells.** One solution to avoid hidden states is to frequently restart your kernel (and run up to your currently selected cell). This is covered more in depth in [this section](#the-kernel).
+**Warning:** Code cells can be executed in any order. This means that you can overwrite your current variables by running cells out of order. This also means that variables declared in cells that were executed then deleted will still be present (known as a hidden state) unless the kernel is restarted. Therefore, **when coding in notebooks, be cautious of the order in which you run cells.** One solution to avoid hidden states is to frequently restart your kernel (and run up to your currently selected cell). 
 
 #### Autocompletion and documentation
 Autocompletion is possible with JupyterLab too! Use **Tab**.
